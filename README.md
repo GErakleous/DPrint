@@ -22,7 +22,7 @@ pod 'DPrint'
 
 ## Author
 
-GErakleous, georgios.erakleous@nimbletank.com
+George Erakleous, g.erakleous@gmail.com
 
 ## License
 

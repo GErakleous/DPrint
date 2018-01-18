@@ -1,0 +1,6 @@
+framework module DPrint {
+  umbrella header "DPrint-umbrella.h"
+
+  export *
+  module * { export * }
+}

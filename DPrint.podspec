@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DPrint'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DPrint.'
+  s.version          = '0.2.0'
+  s.summary          = 'Small Debug logger written in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,38 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: To be updated
+
+Small Debug logger written in Swift. It can log the name of the file in which it appears, the name of the declaration and the line number. Different types of logs are supported as well: text = 🔤, debug = 🚥, warning = ⚠️, error = ❌, fixme = 💊.
+
+Usage:
+------
+
+Arguments:
+
+#item			Any      	The item(s) to print.
+#path			String		The name of the file in which it appears (optional).
+#functionName	String   	The name of the declaration in which it appears (optional).
+#lineNo			Int      	The line number on which it appears (optional).
+#messageType	DPrintMessageType	The type of icon to show when printing the message (optional).
+
+
+DPrint("blah", ["item", "item2"], ["item": 6, "item2": 8], 9)
+DPrintText("text")
+DPrintDebug("A debug message")
+DPrintError("An error message")
+DPrintFixMe("Fix me please")
+DPrintWarning("Please be careful")
+
                        DESC
 
   s.homepage         = 'https://github.com/GErakleous/DPrint'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'GErakleous' => 'georgios.erakleous@nimbletank.com' }
+  s.author           = { 'George Erakleous' => 'g.erakleous@gmail.com' }
   s.source           = { :git => 'https://github.com/GErakleous/DPrint.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.3'
 
   s.source_files = 'DPrint/Classes/**/*'
   

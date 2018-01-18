@@ -1,0 +1,6 @@
+framework module Pods_DPrint_Tests {
+  umbrella header "Pods-DPrint_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
