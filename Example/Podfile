@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DPrint_Example' do
+  pod 'DPrint', :path => '../'
+
+  target 'DPrint_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
