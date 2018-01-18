@@ -1,5 +1,5 @@
 PODS:
-  - DPrint (0.1.0)
+  - DPrint (0.2.0)
 
 DEPENDENCIES:
   - DPrint (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DPrint: 0709836acdcde95f1879c596ec336ddbb32a5c12
+  DPrint: f51c6ec3d1ba66fd30e4123ec3ae99852aa778aa
 
 PODFILE CHECKSUM: 22bb9ae7234e51d6ea58592cec07352276c142f6
 
