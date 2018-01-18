@@ -1,22 +1,22 @@
 {
   "name": "DPrint",
-  "version": "0.1.0",
-  "summary": "A short description of DPrint.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "Small Debug logger written in Swift.",
+  "description": "TODO: To be updated\n\nSmall Debug logger written in Swift. It can log the name of the file in which it appears, the name of the declaration and the line number. Different types of logs are supported as well: text = 🔤, debug = 🚥, warning = ⚠️, error = ❌, fixme = 💊.\n\nUsage:\n------\n\nArguments:\n\n#item\t\t\tAny      \tThe item(s) to print.\n#path\t\t\tString\t\tThe name of the file in which it appears (optional).\n#functionName\tString   \tThe name of the declaration in which it appears (optional).\n#lineNo\t\t\tInt      \tThe line number on which it appears (optional).\n#messageType\tDPrintMessageType\tThe type of icon to show when printing the message (optional).\n\n\nDPrint(\"blah\", [\"item\", \"item2\"], [\"item\": 6, \"item2\": 8], 9)\nDPrintText(\"text\")\nDPrintDebug(\"A debug message\")\nDPrintError(\"An error message\")\nDPrintFixMe(\"Fix me please\")\nDPrintWarning(\"Please be careful\")",
   "homepage": "https://github.com/GErakleous/DPrint",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "GErakleous": "georgios.erakleous@nimbletank.com"
+    "George Erakleous": "g.erakleous@gmail.com"
   },
   "source": {
     "git": "https://github.com/GErakleous/DPrint.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.3"
   },
   "source_files": "DPrint/Classes/**/*"
 }

@@ -3,7 +3,9 @@ This application makes use of the following third party libraries:
 
 ## DPrint
 
-Copyright (c) 2018 GErakleous <georgios.erakleous@nimbletank.com>
+MIT License
+
+Copyright (c) 2018 Georgios Erakleous
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

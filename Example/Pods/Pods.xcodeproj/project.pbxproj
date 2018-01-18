@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1694216513A50EE7160B5105A42F313F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		44ED110118EC83E4EBAAE2234D64DD94 /* DPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C05B9ED33700128A20D2337702DFC3 /* DPrint.swift */; };
 		4E8D7717D39F20F67484AB5EA2EDE94D /* Pods-DPrint_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 265D642BF7949C8B53AA70BF4F48E51B /* Pods-DPrint_Tests-dummy.m */; };
 		5D45854B74BC5F85AEC64C68809B2127 /* Pods-DPrint_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 740FC6A83895F887E7BAE3CECDB58272 /* Pods-DPrint_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60CB4E503834FF925D035C8BCAF47EF5 /* Pods-DPrint_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E1E5734C9A1688ED879C20F3084C30 /* Pods-DPrint_Example-dummy.m */; };
-		A18F4380A70D42FB794911EF795AF3FE /* DPrint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB932D281567D192E374140251F2685C /* DPrint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B284345E36A4402FEE8CF92923B8611 /* DPrint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8D6367FF680C19B8E3CA3D19799FC3 /* DPrint-dummy.m */; };
+		A18F4380A70D42FB794911EF795AF3FE /* DPrint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 806A0E702EE14AB0FBAAEF19F67B5437 /* DPrint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1DEE3E9CF0B10C900FE71C3DDE39C9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E7785FD40A2D5A70A2FA5F8992C9A433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		ECA72B5E4C738A4ACB6A978C0C57CDFF /* DPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0CD7FB42C84B66A9873CE9A0BEB27 /* DPrint.swift */; };
 		F459DB0EFA4F5B5934387697D2120836 /* Pods-DPrint_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D4ABE531A4F4785C18D5BAD1AB0D45 /* Pods-DPrint_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9FD4213D7FD96189EF4C33665237100 /* DPrint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE947B9CA7BDEF1358B706AE90F8949 /* DPrint-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,38 +30,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008B36DD821DFC82629ADD2BAD6D4FA5 /* DPrint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DPrint.xcconfig; sourceTree = "<group>"; };
 		01BA77021AFD1F8BA9A1F97048652BB3 /* Pods-DPrint_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPrint_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0E49F5141E317588F9AED15B969D5EB0 /* DPrint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPrint-prefix.pch"; sourceTree = "<group>"; };
-		11775C523506499F19A7E41962388016 /* Pods-DPrint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DPrint_Tests.modulemap"; sourceTree = "<group>"; };
-		130FCD147F13D56F13138D22D3676619 /* DPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DPrint.modulemap; sourceTree = "<group>"; };
-		25A2620EB0695F276025DB80CCE7C60D /* Pods-DPrint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DPrint_Example.modulemap"; sourceTree = "<group>"; };
+		11775C523506499F19A7E41962388016 /* Pods-DPrint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DPrint_Tests.modulemap"; sourceTree = "<group>"; };
+		24135B9894F7D57DA84AFBC1DAD2C581 /* DPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DPrint.modulemap; sourceTree = "<group>"; };
+		25A2620EB0695F276025DB80CCE7C60D /* Pods-DPrint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DPrint_Example.modulemap"; sourceTree = "<group>"; };
 		265D642BF7949C8B53AA70BF4F48E51B /* Pods-DPrint_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPrint_Tests-dummy.m"; sourceTree = "<group>"; };
-		36EAEC1ADA7816A03828594D577352DE /* Pods_DPrint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPrint_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BE0CD7FB42C84B66A9873CE9A0BEB27 /* DPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPrint.swift; path = DPrint/Classes/DPrint.swift; sourceTree = "<group>"; };
+		353D231B4563B7AEA1322B14EBF35A5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EAEC1ADA7816A03828594D577352DE /* Pods_DPrint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DPrint_Example.framework; path = "Pods-DPrint_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1D49475503210C3C6B994DE7759A54 /* Pods-DPrint_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPrint_Example-resources.sh"; sourceTree = "<group>"; };
+		55C05B9ED33700128A20D2337702DFC3 /* DPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPrint.swift; path = DPrint/Classes/DPrint.swift; sourceTree = "<group>"; };
 		57761F178925BF5AC3BD84183207F6AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ABCBFD0F06AC6C9E164550048A40106 /* Pods-DPrint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPrint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C8D6367FF680C19B8E3CA3D19799FC3 /* DPrint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DPrint-dummy.m"; sourceTree = "<group>"; };
 		60D4ABE531A4F4785C18D5BAD1AB0D45 /* Pods-DPrint_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPrint_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6FA5D9041B58369B92761EABD5C00126 /* DPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA5D9041B58369B92761EABD5C00126 /* DPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DPrint.framework; path = DPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E1E5734C9A1688ED879C20F3084C30 /* Pods-DPrint_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPrint_Example-dummy.m"; sourceTree = "<group>"; };
 		740FC6A83895F887E7BAE3CECDB58272 /* Pods-DPrint_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPrint_Example-umbrella.h"; sourceTree = "<group>"; };
 		75A3859DCA6B2238D83E9E2F2061C2BF /* Pods-DPrint_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPrint_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7830A4B0BD6EC126D9E8DEA2A3522FD3 /* Pods-DPrint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPrint_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7CDFB3E59675D4F670EAC90E4949F285 /* Pods-DPrint_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPrint_Tests-resources.sh"; sourceTree = "<group>"; };
+		806A0E702EE14AB0FBAAEF19F67B5437 /* DPrint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPrint-umbrella.h"; sourceTree = "<group>"; };
+		8260C480F54BAA505E897EDEF9A5129C /* DPrint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DPrint.xcconfig; sourceTree = "<group>"; };
 		9197E8B3DC0C33787C6F148E5D57CCA0 /* Pods-DPrint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPrint_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93EB5303B91091118DD2E06293191AEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		971C406E0915B4A46B5DA798A2247659 /* Pods-DPrint_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPrint_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9C362A2C87BBB4BACBBB5CF78BC03DB6 /* Pods-DPrint_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPrint_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D126527D34EFE43824D5FA36543423F /* Pods-DPrint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPrint_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A47251C6254B469219271EC3421F61C2 /* Pods_DPrint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPrint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47251C6254B469219271EC3421F61C2 /* Pods_DPrint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DPrint_Tests.framework; path = "Pods-DPrint_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B198D6B005822399705955046F3949 /* DPrint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPrint-prefix.pch"; sourceTree = "<group>"; };
 		ACE38DC89A936D051DB1152E56B9F212 /* Pods-DPrint_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPrint_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB932D281567D192E374140251F2685C /* DPrint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPrint-umbrella.h"; sourceTree = "<group>"; };
 		CFDB24B004E04C268E747C388C63B462 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED44CF3806D4331A2FD5FAF56492C5B5 /* Pods-DPrint_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPrint_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FEE947B9CA7BDEF1358B706AE90F8949 /* DPrint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DPrint-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		072058CC7D4B32B705457E56282CB9D6 /* DPrint */ = {
+			isa = PBXGroup;
+			children = (
+				55C05B9ED33700128A20D2337702DFC3 /* DPrint.swift */,
+				E0CCC8EED7927CFDB201232F1263D771 /* Support Files */,
+			);
+			name = DPrint;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		1B4B2D27017A7A908632C302580BCA51 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,20 +111,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		49839FDF26C396A358FBB982A5117BA8 /* DPrint */ = {
-			isa = PBXGroup;
-			children = (
-				3BE0CD7FB42C84B66A9873CE9A0BEB27 /* DPrint.swift */,
-				9008AD4D71B6604D1D51297B8320275C /* Support Files */,
-			);
-			name = DPrint;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		53E67821182E62CDC1AAE4EEA1CD18D5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				49839FDF26C396A358FBB982A5117BA8 /* DPrint */,
+				072058CC7D4B32B705457E56282CB9D6 /* DPrint */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -128,20 +128,6 @@
 				F6B9A9A06020691873291769455A9851 /* Products */,
 				1B4B2D27017A7A908632C302580BCA51 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9008AD4D71B6604D1D51297B8320275C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				130FCD147F13D56F13138D22D3676619 /* DPrint.modulemap */,
-				008B36DD821DFC82629ADD2BAD6D4FA5 /* DPrint.xcconfig */,
-				FEE947B9CA7BDEF1358B706AE90F8949 /* DPrint-dummy.m */,
-				0E49F5141E317588F9AED15B969D5EB0 /* DPrint-prefix.pch */,
-				CB932D281567D192E374140251F2685C /* DPrint-umbrella.h */,
-				93EB5303B91091118DD2E06293191AEB /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DPrint";
 			sourceTree = "<group>";
 		};
 		BA3518235E088A67A1AE89156A16B469 /* Pods-DPrint_Tests */ = {
@@ -194,6 +180,20 @@
 			);
 			name = "Pods-DPrint_Example";
 			path = "Target Support Files/Pods-DPrint_Example";
+			sourceTree = "<group>";
+		};
+		E0CCC8EED7927CFDB201232F1263D771 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24135B9894F7D57DA84AFBC1DAD2C581 /* DPrint.modulemap */,
+				8260C480F54BAA505E897EDEF9A5129C /* DPrint.xcconfig */,
+				5C8D6367FF680C19B8E3CA3D19799FC3 /* DPrint-dummy.m */,
+				A4B198D6B005822399705955046F3949 /* DPrint-prefix.pch */,
+				806A0E702EE14AB0FBAAEF19F67B5437 /* DPrint-umbrella.h */,
+				353D231B4563B7AEA1322B14EBF35A5C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DPrint";
 			sourceTree = "<group>";
 		};
 		F6B9A9A06020691873291769455A9851 /* Products */ = {
@@ -258,7 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B93664627392B970303126E3882F2BE /* Build configuration list for PBXNativeTarget "DPrint" */;
 			buildPhases = (
-				C94DD37B8EB31EB8B2BE1B52738A0D1F /* Sources */,
+				2F5A24A01D6756182E7EF65E323E8FE0 /* Sources */,
 				2A3C16D2F6F0481E3B5D0655C9A5C8BA /* Frameworks */,
 				8B98EF73493AD9C7080881996ED9CD89 /* Headers */,
 			);
@@ -295,7 +295,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -317,20 +317,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F5A24A01D6756182E7EF65E323E8FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B284345E36A4402FEE8CF92923B8611 /* DPrint-dummy.m in Sources */,
+				44ED110118EC83E4EBAAE2234D64DD94 /* DPrint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		533A62C2581913AAD312E369903000FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4E8D7717D39F20F67484AB5EA2EDE94D /* Pods-DPrint_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C94DD37B8EB31EB8B2BE1B52738A0D1F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9FD4213D7FD96189EF4C33665237100 /* DPrint-dummy.m in Sources */,
-				ECA72B5E4C738A4ACB6A978C0C57CDFF /* DPrint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,9 +354,74 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		21BE4D86E25A7FBB90393916D5AA6609 /* Release */ = {
+		35DEF356C50FACC9C2CCB1D18D9A8A82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 008B36DD821DFC82629ADD2BAD6D4FA5 /* DPrint.xcconfig */;
+			baseConfigurationReference = 8260C480F54BAA505E897EDEF9A5129C /* DPrint.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DPrint/DPrint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPrint/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DPrint/DPrint.modulemap";
+				PRODUCT_NAME = DPrint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		377248A6DAB815E37B8DD72B98A67B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7830A4B0BD6EC126D9E8DEA2A3522FD3 /* Pods-DPrint_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DPrint_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DPrint_Example/Pods-DPrint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DPrint_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FD28CD72A15E056F1931C7F56AD1909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8260C480F54BAA505E897EDEF9A5129C /* DPrint.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -386,7 +451,62 @@
 			};
 			name = Release;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		621AB785940626574F07364CB14760E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B57C09D404C607DDE283C5C44183B2A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -446,9 +566,9 @@
 			};
 			name = Debug;
 		};
-		657686EB06A0E1CA3BD8B7CBB47EE59F /* Release */ = {
+		CD6AD425C7392259DC1EE4E47A7CDE94 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7830A4B0BD6EC126D9E8DEA2A3522FD3 /* Pods-DPrint_Example.release.xcconfig */;
+			baseConfigurationReference = 9D126527D34EFE43824D5FA36543423F /* Pods-DPrint_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -459,20 +579,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DPrint_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DPrint_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DPrint_Example/Pods-DPrint_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DPrint_Tests/Pods-DPrint_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DPrint_Example;
+				PRODUCT_NAME = Pods_DPrint_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -480,63 +599,7 @@
 			};
 			name = Release;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8AA92F6057E66EB17F0F10D8F8D9E5F3 /* Debug */ = {
+		D147D42D3FF0C1FED6E9A24F1C7A2C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9197E8B3DC0C33787C6F148E5D57CCA0 /* Pods-DPrint_Example.debug.xcconfig */;
 			buildSettings = {
@@ -551,7 +614,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DPrint_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DPrint_Example/Pods-DPrint_Example.modulemap";
@@ -570,40 +633,7 @@
 			};
 			name = Debug;
 		};
-		96E2818CC06D8AD4E6F750DBB5AAF4D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D126527D34EFE43824D5FA36543423F /* Pods-DPrint_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DPrint_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DPrint_Tests/Pods-DPrint_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DPrint_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CC31456D38A81B45031C947DB0FCBFBE /* Debug */ = {
+		FD1325FCAAD263131589991AD382E0F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5ABCBFD0F06AC6C9E164550048A40106 /* Pods-DPrint_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -618,7 +648,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DPrint_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DPrint_Tests/Pods-DPrint_Tests.modulemap";
@@ -635,45 +665,14 @@
 			};
 			name = Debug;
 		};
-		E8AEC1EC9F7E20AE138FB5375EBD5369 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 008B36DD821DFC82629ADD2BAD6D4FA5 /* DPrint.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DPrint/DPrint-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DPrint/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DPrint/DPrint.modulemap";
-				PRODUCT_NAME = DPrint;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		13F32613BFD7D4767FB4E2110B32E0BA /* Build configuration list for PBXNativeTarget "Pods-DPrint_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC31456D38A81B45031C947DB0FCBFBE /* Debug */,
-				96E2818CC06D8AD4E6F750DBB5AAF4D9 /* Release */,
+				FD1325FCAAD263131589991AD382E0F7 /* Debug */,
+				CD6AD425C7392259DC1EE4E47A7CDE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -681,8 +680,8 @@
 		1A2D653C244723D13EE13C68D3E539DD /* Build configuration list for PBXNativeTarget "Pods-DPrint_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8AA92F6057E66EB17F0F10D8F8D9E5F3 /* Debug */,
-				657686EB06A0E1CA3BD8B7CBB47EE59F /* Release */,
+				D147D42D3FF0C1FED6E9A24F1C7A2C0C /* Debug */,
+				377248A6DAB815E37B8DD72B98A67B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -690,8 +689,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				B57C09D404C607DDE283C5C44183B2A1 /* Debug */,
+				621AB785940626574F07364CB14760E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -699,8 +698,8 @@
 		7B93664627392B970303126E3882F2BE /* Build configuration list for PBXNativeTarget "DPrint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8AEC1EC9F7E20AE138FB5375EBD5369 /* Debug */,
-				21BE4D86E25A7FBB90393916D5AA6609 /* Release */,
+				35DEF356C50FACC9C2CCB1D18D9A8A82 /* Debug */,
+				4FD28CD72A15E056F1931C7F56AD1909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
