@@ -55,8 +55,6 @@ File: ViewController.swift | Function: viewDidLoad() | lineNo: 18
 -> ["item", "item 1"]
 -> ["item": 6, "item2": 8]
 -> 9
-File: ViewController.swift | Function: viewDidLoad() | lineNo: 20
--> Testing log
 🔤 | File: ViewController.swift | Function: viewDidLoad() | lineNo: 21
 -> [2, 4]
 🔤 | File: ViewController.swift | Function: viewDidLoad() | lineNo: 21
