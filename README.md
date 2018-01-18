@@ -21,6 +21,8 @@ pod 'DPrint'
 ```
 
 ## Details
+NOTE: EXPERIMENTAL
+
 TODO: To be updated
 
 Small Debug logger written in Swift. It can log the name of the file in which it appears, the name of the declaration and the line number. Different types of logs are supported as well: text = 🔤, debug = 🚥, warning = ⚠️, error = ❌, fixme = 💊.
