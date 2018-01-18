@@ -20,6 +20,28 @@ it, simply add the following line to your Podfile:
 pod 'DPrint'
 ```
 
+## Details
+TODO: To be updated
+
+Small Debug logger written in Swift. It can log the name of the file in which it appears, the name of the declaration and the line number. Different types of logs are supported as well: text = 🔤, debug = 🚥, warning = ⚠️, error = ❌, fixme = 💊.
+
+## Usage:
+
+Arguments:
+#item			Any      	The item(s) to print.
+#path			String	The name of the file in which it appears (optional).
+#functionName	String   	The name of the declaration in which it appears (optional).
+#lineNo			Int      	The line number on which it appears (optional).
+#messageType	DPrintMessageType	The type of icon to show when printing the message (optional).
+
+DPrint.log("blah", ["item", "item 1"], ["item": 6, "item2": 8], 9)
+DPrint.log("Testing log")
+DPrint.logText([2, 4], "text")
+DPrint.logDebug("A debug message")
+DPrint.logError("An error message")
+DPrint.logFixMe("Fix me please")
+DPrint.logWarning("Please be careful")
+
 ## Author
 
 George Erakleous, g.erakleous@gmail.com

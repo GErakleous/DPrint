@@ -26,20 +26,19 @@ Usage:
 ------
 
 Arguments:
-
 #item			Any      	The item(s) to print.
 #path			String		The name of the file in which it appears (optional).
 #functionName	String   	The name of the declaration in which it appears (optional).
 #lineNo			Int      	The line number on which it appears (optional).
 #messageType	DPrintMessageType	The type of icon to show when printing the message (optional).
 
-
-DPrint("blah", ["item", "item2"], ["item": 6, "item2": 8], 9)
-DPrintText("text")
-DPrintDebug("A debug message")
-DPrintError("An error message")
-DPrintFixMe("Fix me please")
-DPrintWarning("Please be careful")
+DPrint.log("blah", ["item", "item 1"], ["item": 6, "item2": 8], 9)
+DPrint.log("Testing log")
+DPrint.logText([2, 4], "text")
+DPrint.logDebug("A debug message")
+DPrint.logError("An error message")
+DPrint.logFixMe("Fix me please")
+DPrint.logWarning("Please be careful")
 
                        DESC
 
