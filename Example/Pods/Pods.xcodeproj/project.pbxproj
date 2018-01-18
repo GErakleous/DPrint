@@ -31,12 +31,12 @@
 
 /* Begin PBXFileReference section */
 		01BA77021AFD1F8BA9A1F97048652BB3 /* Pods-DPrint_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPrint_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		11775C523506499F19A7E41962388016 /* Pods-DPrint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DPrint_Tests.modulemap"; sourceTree = "<group>"; };
-		24135B9894F7D57DA84AFBC1DAD2C581 /* DPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DPrint.modulemap; sourceTree = "<group>"; };
-		25A2620EB0695F276025DB80CCE7C60D /* Pods-DPrint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DPrint_Example.modulemap"; sourceTree = "<group>"; };
+		11775C523506499F19A7E41962388016 /* Pods-DPrint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DPrint_Tests.modulemap"; sourceTree = "<group>"; };
+		24135B9894F7D57DA84AFBC1DAD2C581 /* DPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DPrint.modulemap; sourceTree = "<group>"; };
+		25A2620EB0695F276025DB80CCE7C60D /* Pods-DPrint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DPrint_Example.modulemap"; sourceTree = "<group>"; };
 		265D642BF7949C8B53AA70BF4F48E51B /* Pods-DPrint_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPrint_Tests-dummy.m"; sourceTree = "<group>"; };
 		353D231B4563B7AEA1322B14EBF35A5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36EAEC1ADA7816A03828594D577352DE /* Pods_DPrint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DPrint_Example.framework; path = "Pods-DPrint_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EAEC1ADA7816A03828594D577352DE /* Pods_DPrint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPrint_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1D49475503210C3C6B994DE7759A54 /* Pods-DPrint_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPrint_Example-resources.sh"; sourceTree = "<group>"; };
 		55C05B9ED33700128A20D2337702DFC3 /* DPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPrint.swift; path = DPrint/Classes/DPrint.swift; sourceTree = "<group>"; };
 		57761F178925BF5AC3BD84183207F6AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		5C8D6367FF680C19B8E3CA3D19799FC3 /* DPrint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DPrint-dummy.m"; sourceTree = "<group>"; };
 		60D4ABE531A4F4785C18D5BAD1AB0D45 /* Pods-DPrint_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPrint_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6FA5D9041B58369B92761EABD5C00126 /* DPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DPrint.framework; path = DPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA5D9041B58369B92761EABD5C00126 /* DPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E1E5734C9A1688ED879C20F3084C30 /* Pods-DPrint_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPrint_Example-dummy.m"; sourceTree = "<group>"; };
 		740FC6A83895F887E7BAE3CECDB58272 /* Pods-DPrint_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPrint_Example-umbrella.h"; sourceTree = "<group>"; };
 		75A3859DCA6B2238D83E9E2F2061C2BF /* Pods-DPrint_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPrint_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -53,11 +53,11 @@
 		806A0E702EE14AB0FBAAEF19F67B5437 /* DPrint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPrint-umbrella.h"; sourceTree = "<group>"; };
 		8260C480F54BAA505E897EDEF9A5129C /* DPrint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DPrint.xcconfig; sourceTree = "<group>"; };
 		9197E8B3DC0C33787C6F148E5D57CCA0 /* Pods-DPrint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPrint_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		971C406E0915B4A46B5DA798A2247659 /* Pods-DPrint_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPrint_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9C362A2C87BBB4BACBBB5CF78BC03DB6 /* Pods-DPrint_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPrint_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D126527D34EFE43824D5FA36543423F /* Pods-DPrint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPrint_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A47251C6254B469219271EC3421F61C2 /* Pods_DPrint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DPrint_Tests.framework; path = "Pods-DPrint_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47251C6254B469219271EC3421F61C2 /* Pods_DPrint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPrint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B198D6B005822399705955046F3949 /* DPrint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPrint-prefix.pch"; sourceTree = "<group>"; };
 		ACE38DC89A936D051DB1152E56B9F212 /* Pods-DPrint_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPrint_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CFDB24B004E04C268E747C388C63B462 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -295,7 +295,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -502,6 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
